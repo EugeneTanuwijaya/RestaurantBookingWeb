@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/favicon.png" type=""/>
+        <title>GoResto</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+            integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+            crossorigin="anonymous"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="css/style_lightMode.css" rel="stylesheet"/>
+        <link href="css/responsive.css" rel="stylesheet"/>
+    </head>
+
+    <body class="sub_page">
+        <div class="hero_area">
+            <div class="bg-box">
+                <img src="images/home_lightMode.png" alt=""/>
+            </div>
+            <header class="header_section">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg custom_nav-container">
+                        <a class="navbar-brand" href="home_lightMode.html">
+                            <span>
+                                GoResto</span>
+                        </a>
+
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class=""></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home_lightMode.html">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="resto_lightMode.html">Recomendation
+                                        <span class="sr-only"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="user_option">
+                                <a href="resto_darkMode.html" class="user_link">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        height="100%"
+                                        width="100%"
+                                        viewbox="0 0 512 512">
+                                        <path
+                                            d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/>
+                                    </svg>
+                                </a>
+                                <form class="form-inline">
+                                    <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                                <a href="" class="login">
+                                    Login/Signup
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <section class="food_section layout_padding">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>Our recomendation</h2>
+                </div>
+
+                <ul class="filters_menu">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".burger">Nearest</li>
+                    <li data-filter=".pizza">Cheapest</li>
+                    <li data-filter=".pasta">Favorite</li>
+                    <li data-filter=".fries">24 Hours</li>
+                </ul>
+
+                <div class="filters-content">
+                    <div class="row grid">
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto1.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>The Golden Crown Dining</h5>
+                                        <p>
+                                            Open : 07:00 - 21:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all burger">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto2.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>LuxeEats Bistro</h5>
+                                        <p>
+                                            Open : 07:00 - 22:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.1</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto3.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Royal Palate Manor</h5>
+                                        <p>
+                                            Open : 08:00 - 24:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.4</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pasta">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto4.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Elite Epicurean Lounge</h5>
+                                        <p>
+                                            Open : 09:00 - 21:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.6</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all fries">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto5.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Opulent Oasis Brasserie</h5>
+                                        <p>
+                                            Open : 24:00 Hours
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.8</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto6.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Prestige Pavilion Restaurant</h5>
+                                        <p>
+                                            Open : 07:00 - 24:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.2</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all burger">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto7.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Splendid Savory Haven</h5>
+                                        <p>
+                                            Open : 10:00 - 20:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.9</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all burger">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto8.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Grand Gastronomy Hall
+                                        </h5>
+                                        <p>
+                                            Open : 12:00 - 21:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.0</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pasta">
+                            <div class="box">
+                                <div>
+                                    <div class="img-boxResto">
+                                        <img src="images\resto9.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Regal Dining Retreat</h5>
+                                        <p>
+                                            Open : 08:00 - 22:00
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="menu_lightMode.html">View More</a>
+                                        </div>
+                                        <div class="btn-rating">
+                                            <a href="rating_lightMode.html">4.1</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vw-box">
+                    <a href="">
+                        View More
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

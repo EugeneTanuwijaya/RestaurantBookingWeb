@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/favicon.png" type=""/>
+        <title>GoResto</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+            integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+            crossorigin="anonymous"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="css/style_darkMode.css" rel="stylesheet"/>
+        <link href="css/responsive.css" rel="stylesheet"/>
+    </head>
+
+    <body class="sub_page">
+        <div class="hero_area">
+            <div class="bg-box">
+                <img src="images/home_darkMode.png" alt=""/>
+            </div>
+            <header class="header_section">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg custom_nav-container">
+                        <a class="navbar-brand" href="home_darkMode.html">
+                            <span>
+                                GoResto</span>
+                        </a>
+
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class=""></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home_darkMode.html">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="resto_darkMode.html">Recomendation
+                                        <span class="sr-only"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="user_option">
+                                <a href="menu_lightMode.html" class="user_link">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        height="75%"
+                                        width="75%"
+                                        viewbox="0 0 384 512">
+                                        <path
+                                            d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/>
+                                    </svg>
+                                </a>
+                                <form class="form-inline">
+                                    <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                                <a href="" class="login">
+                                    Login/Signup
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <section class="food_section layout_padding">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>Our recomendation</h2>
+                </div>
+
+                <ul class="filters_menu">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".burger">Favorite</li>
+                    <li data-filter=".pizza">Promos</li>
+                    <li data-filter=".pasta">Drink</li>
+                    <li data-filter=".fries">Signature</li>
+                </ul>
+
+                <div class="filters-content">
+                    <div class="row grid">
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\Pizza.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Pizza</h5>
+                                        <p>
+                                            Pizza is a culinary dish that originated in Italy. It consists of a thin baked
+                                            dough, coated with ketchup, cheese, and a wide selection of toppings such as
+                                            pepperoni, mushrooms, and vegetables.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all burger">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\Nasi goreng.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Fried Rice</h5>
+                                        <p>
+                                            Fried Rice is an Asian dish with rice fried with condiments such as onion,
+                                            garlic, and sweet soy sauce. Sometimes eggs, meat or vegetables are added. The
+                                            taste is savory and fragrant, with dry rice golden brown.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\ikan bakar.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Grilled Fish</h5>
+                                        <p>
+                                            Grilled fish is a dish consisting of fish grilled using special spices. Fish
+                                            that has been cleaned and marinated with spices such as onions, garlic, ginger,
+                                            and local spices, then grilled or grilled until cooked.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pasta">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\jus melon.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Melon juice</h5>
+                                        <p>
+                                            Melon juice is a fresh drink produced from melons that are mixed and processed
+                                            into liquid form. With its sweet and fresh taste, melon juice gives a
+                                            distinctive delicious melon sensation.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all fries">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\Sushi.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Sushi</h5>
+                                        <p>
+                                            Sushi is a Japanese dish with rice mixed with rice vinegar, sugar, and salt,
+                                            served with raw fish, seafood, vegetables and seaweed. Sushi is usually
+                                            accompanied by wasabi, pink ginger, and soy sauce.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pizza">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\Sate ayam.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Chicken Satay</h5>
+                                        <p>
+                                            Chicken satay is a Southeast Asian dish with pieces of chicken meat skewered,
+                                            then grilled. Chicken meat is usually marinated with a mixture of spices such as
+                                            sweet soy sauce, garlic, ginger, and spices.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all burger">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\Spageti.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Spaghetti</h5>
+                                        <p>
+                                            Spaghetti is a famous Italian pasta dish, consisting of long noodles cooked al
+                                            dente and served with a rich tomato sauce. It is often garnished with parmesan
+                                            cheese and served with additional options.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all burger">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\ayam katsu.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Katsu Chicken</h5>
+                                        <p>
+                                            Katsu chicken is a Japanese dish consisting of pieces of chicken meat dipped in
+                                            breadcrumbs and eggs, then fried until golden brown. The result is pieces of
+                                            chicken that are crispy.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 all pasta">
+                            <div class="box">
+                                <div>
+                                    <div class="img-box">
+                                        <img src="images\lemon tea.png" alt=""/>
+                                    </div>
+                                    <div class="detail-box">
+                                        <h5>Lemon Tea</h5>
+                                        <p>
+                                            Lemon tea is a refreshing drink made from tea served with lemon juice or lemon
+                                            slices. Black tea or green tea is often used as the basis of this drink. Lemon
+                                            tea has a unique taste that balances the warmth of tea.
+                                        </p>
+                                        <div class="btn-box">
+                                            <a href="book_darkMode.html">Reservation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vw-box">
+                    <a href="">
+                        View More
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
